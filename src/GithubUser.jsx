@@ -59,7 +59,7 @@ export default function GithubUser() {
       {githubUser && (
         <div className="bg-white rounded-3xl shadow-2xl shadow-blue-100/50 border border-gray-100 overflow-hidden">
           {/* Cover Accent */}
-          <div className="h-32 bg-gradient-to-r from-blue-500 to-indigo-600"></div>
+          <div className="h-32 bg-linear-to-r from-blue-500 to-indigo-600"></div>
           
           <div className="px-8 pb-10">
             <div className="relative -top-12 flex flex-col md:flex-row md:items-end gap-6">
